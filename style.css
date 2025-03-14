@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #333;
+}
+
+h1 {
+    margin: 1rem;
+    color: #fff;
+    font-size: 2.5rem;
+    margin-top: 0rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    margin: 0 auto;
+    background: linear-gradient(90deg, #3498db, #e74c3c);
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 10vw;
+    height: 10vh;
+    cursor: move;
+    position: relative;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.box:hover {
+    background: linear-gradient(90deg, #2980b9, #c0392b);
+}
