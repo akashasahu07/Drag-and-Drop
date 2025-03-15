@@ -16,7 +16,7 @@ function drag() {
 
     function mouseDown(e) {
         e.preventDefault();
-        
+
         dragging = this;
 
         mouseX = e.pageX;
